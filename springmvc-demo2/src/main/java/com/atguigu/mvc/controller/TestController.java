@@ -15,4 +15,8 @@ public class TestController {
     public String getIndex() {
         return "index";
     }
+    @RequestMapping("/param")
+    public String param(){
+        return "test_param";
+    }
 }
