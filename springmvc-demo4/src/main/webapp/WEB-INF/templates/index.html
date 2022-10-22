@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+<form method="post" th:action="@{/testRequestBody}">
+    用户名: <input type="text" name="username"><br/>
+    密 码:<input type="password" name="password"><br/>
+    <input type="submit" name="提交">
+
+</form>
+<form method="post" th:action="@{/testRequestEntity}">
+    用户名: <input type="text" name="username"><br/>
+    密 码:<input type="password" name="password"><br/>
+    <input type="submit" name="测试RequestEntity">
+
+</form>
+<a th:href="@{/testResponse}">测试通过servletAPI的response对象响应浏览器数据</a><br/>
+<a th:href="@{/testResponseBody}">测试通过@ResponseBody的response对象响应浏览器数据</a><br/>
+<a th:href="@{/testResponseUser}">测试通过@ResponseUser的response对象响应User对象</a><br/>
+<div id="app">
+    <a th:href="@{/testAjax}" @click="testAjax">testAjax</a><br>
+</div>
+<!--<div id="app">-->
+<!--    <a @click="testAxios" th:href="@{/testAxios}">springMVC处理axios</a>-->
+<!--</div>-->
+<!--<script type="text/javascript" th:src="@{/static/js/vue.js}"></script>-->
+<!--<script type="text/javascript" th:src="@{/static/js/axios.min.js}"></script>-->
+<!--<script type="text/javascript">-->
+<!--    new Vue({-->
+<!--        el: "#app",-->
+<!--        method: {-->
+<!--            testAxios: function (event) {-->
+<!--                axios({-->
+<!--                    method:"post",-->
+<!--                    url:event.target.href,-->
+<!--                    params:{-->
+<!--                        username:"admin",-->
+<!--                        password:"123456"-->
+<!--                    }-->
+<!--                }).then(function (response) {-->
+<!--                    alert(response.data)-->
+<!--                })-->
+<!--                event.preventDefault();-->
+<!--            }-->
+
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<script type="text/javascript" th:src="@{/static/js/vue.js}"></script>
+<script type="text/javascript" th:src="@{/static/js/axios.min.js}"></script>
+<script type="text/javascript">
+    var vue = new Vue({
+        el:"#app",
+        methods:{
+            testAjax:function (event) {
+                axios({
+                    method:"post",
+                    url:event.target.href,
+                    params:{
+                        username:"admin",
+                        password:"123456"
+                    }
+                }).then(function (response) {
+                    alert(response.data);
+                });
+                event.preventDefault();
+            }
+        }
+    });
+    </script>
+</body>
+</html>

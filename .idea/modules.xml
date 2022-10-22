@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springmvc.iml" filepath="$PROJECT_DIR$/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-annotation/springmvc-annotation.iml" filepath="$PROJECT_DIR$/springmvc-annotation/springmvc-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-demo1/springmvc-demo1.iml" filepath="$PROJECT_DIR$/springmvc-demo1/springmvc-demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-demo2/springmvc-demo2.iml" filepath="$PROJECT_DIR$/springmvc-demo2/springmvc-demo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-demo3/springmvc-demo3.iml" filepath="$PROJECT_DIR$/springmvc-demo3/springmvc-demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-demo4/springmvc-demo4.iml" filepath="$PROJECT_DIR$/springmvc-demo4/springmvc-demo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-demo5/springmvc-demo5.iml" filepath="$PROJECT_DIR$/springmvc-demo5/springmvc-demo5.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-jsp/springmvc-jsp.iml" filepath="$PROJECT_DIR$/springmvc-jsp/springmvc-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-rest/springmvc-rest.iml" filepath="$PROJECT_DIR$/springmvc-rest/springmvc-rest.iml" />
     </modules>

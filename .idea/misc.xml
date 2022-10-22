@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-demo1" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-demo2" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-demo3" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-demo4" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-demo5" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-jsp" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-rest" />
   </component>
@@ -15,6 +18,9 @@
         <option value="$PROJECT_DIR$/springmvc-demo3/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-demo4/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-demo5/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-annotation/pom.xml" />
       </list>
     </option>
   </component>
